@@ -1,0 +1,54 @@
+{
+  "name": "@zenith-visuals/ai",
+  "version": "0.1.1",
+  "description": "AI agent graph and prompt-flow visualizations for Zenith Visuals.",
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "ai",
+    "agent-graph",
+    "llm",
+    "observability",
+    "zenith-visuals"
+  ],
+  "author": "Zenith Visuals",
+  "homepage": "https://github.com/zenith-visuals/zenith-visuals/tree/main/packages/ai#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zenith-visuals/zenith-visuals.git",
+    "directory": "packages/ai"
+  },
+  "bugs": {
+    "url": "https://github.com/zenith-visuals/zenith-visuals/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "type": "module",
+  "sideEffects": false,
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "typecheck": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "react": ">=18",
+    "react-dom": ">=18"
+  },
+  "dependencies": {
+    "@zenith-visuals/core": "workspace:*"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "name": "@zenith-visuals/hooks",
+  "version": "0.1.1",
+  "description": "Reusable React hooks for building Zenith visualizations.",
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "hooks",
+    "visualization",
+    "zoom",
+    "resize-observer",
+    "zenith-visuals"
+  ],
+  "author": "Zenith Visuals",
+  "homepage": "https://github.com/zenith-visuals/zenith-visuals/tree/main/packages/hooks#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zenith-visuals/zenith-visuals.git",
+    "directory": "packages/hooks"
+  },
+  "bugs": {
+    "url": "https://github.com/zenith-visuals/zenith-visuals/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "type": "module",
+  "sideEffects": false,
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "typecheck": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "react": ">=18"
+  },
+  "dependencies": {
+    "@zenith-visuals/core": "workspace:*"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "name": "@zenith-visuals/core",
+  "version": "0.1.1",
+  "description": "Core theming, context, primitives and shared types for Zenith Visuals.",
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "visualization",
+    "dataviz",
+    "theme",
+    "ssr",
+    "zenith-visuals"
+  ],
+  "author": "Zenith Visuals",
+  "homepage": "https://github.com/zenith-visuals/zenith-visuals/tree/main/packages/core#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zenith-visuals/zenith-visuals.git",
+    "directory": "packages/core"
+  },
+  "bugs": {
+    "url": "https://github.com/zenith-visuals/zenith-visuals/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "type": "module",
+  "sideEffects": false,
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "typecheck": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "react": ">=18",
+    "react-dom": ">=18"
+  },
+  "dependencies": {
+    "@zenith-visuals/utils": "workspace:*"
+  }
+}

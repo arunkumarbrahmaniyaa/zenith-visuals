@@ -1,0 +1,17 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "noEmit": true,
+    "baseUrl": ".",
+    "paths": {
+      "@zenith-visuals/core": ["./packages/core/src"],
+      "@zenith-visuals/utils": ["./packages/utils/src"],
+      "@zenith-visuals/hooks": ["./packages/hooks/src"],
+      "@zenith-visuals/themes": ["./packages/themes/src"],
+      "@zenith-visuals/heatmap": ["./packages/heatmap/src"],
+      "@zenith-visuals/timeline": ["./packages/timeline/src"],
+      "@zenith-visuals/flow": ["./packages/flow/src"]
+    }
+  },
+  "include": ["packages/*/src"]
+}

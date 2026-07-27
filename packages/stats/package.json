@@ -1,0 +1,60 @@
+{
+  "name": "@zenith-visuals/stats",
+  "version": "0.1.0",
+  "description": "Statistical & distribution charts (box plot, violin, histogram, KDE density, hexbin, error bars) for Zenith Visuals.",
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "charts",
+    "statistics",
+    "distribution",
+    "box-plot",
+    "violin-plot",
+    "histogram",
+    "kde",
+    "hexbin",
+    "error-bar",
+    "zenith-visuals"
+  ],
+  "author": "Zenith Visuals",
+  "homepage": "https://github.com/arunkumarbrahmaniyaa/zenith-visuals/tree/main/packages/stats#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arunkumarbrahmaniyaa/zenith-visuals.git",
+    "directory": "packages/stats"
+  },
+  "bugs": {
+    "url": "https://github.com/arunkumarbrahmaniyaa/zenith-visuals/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "type": "module",
+  "sideEffects": false,
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "typecheck": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "react": ">=18"
+  },
+  "dependencies": {
+    "@zenith-visuals/core": "workspace:*",
+    "@zenith-visuals/utils": "workspace:*",
+    "@zenith-visuals/charts": "workspace:*"
+  }
+}

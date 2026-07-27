@@ -2,7 +2,7 @@
 
 Core theming, context, primitives and shared types for Zenith Visuals.
 
-Part of [**Zenith Visuals**](https://github.com/zenith-visuals/zenith-visuals) — the ultimate React visualization SDK. TypeScript-first, tree-shakeable, SSR-safe and accessible.
+Part of [**Zenith Visuals**](https://github.com/arunkumarbrahmaniyaa/zenith-visuals) — the ultimate React visualization SDK. TypeScript-first, tree-shakeable, SSR-safe and accessible.
 
 ## Install
 
@@ -43,7 +43,7 @@ renders themed, positioned tooltips.
 
 ## Documentation
 
-See the [main README](https://github.com/zenith-visuals/zenith-visuals#readme) for the full API, theming and more examples.
+See the [main README](https://github.com/arunkumarbrahmaniyaa/zenith-visuals#readme) for the full API, theming and more examples.
 
 ## License
 

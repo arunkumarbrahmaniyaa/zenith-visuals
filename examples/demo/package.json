@@ -1,0 +1,40 @@
+{
+  "name": "@zenith-visuals/demo",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@zenith-visuals/ai": "workspace:*",
+    "@zenith-visuals/core": "workspace:*",
+    "@zenith-visuals/charts": "workspace:*",
+    "@zenith-visuals/finance": "workspace:*",
+    "@zenith-visuals/flow": "workspace:*",
+    "@zenith-visuals/gantt": "workspace:*",
+    "@zenith-visuals/heatmap": "workspace:*",
+    "@zenith-visuals/hierarchy": "workspace:*",
+    "@zenith-visuals/hooks": "workspace:*",
+    "@zenith-visuals/icons": "workspace:*",
+    "@zenith-visuals/kpi": "workspace:*",
+    "@zenith-visuals/maps": "workspace:*",
+    "@zenith-visuals/network": "workspace:*",
+    "@zenith-visuals/orgchart": "workspace:*",
+    "@zenith-visuals/stats": "workspace:*",
+    "@zenith-visuals/themes": "workspace:*",
+    "@zenith-visuals/timeline": "workspace:*",
+    "@zenith-visuals/utils": "workspace:*",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "typescript": "^5.5.3",
+    "vite": "^5.3.0"
+  }
+}

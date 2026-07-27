@@ -1,6 +1,6 @@
 {
   "name": "@zenith-visuals/hooks",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Reusable React hooks for building Zenith visualizations.",
   "license": "MIT",
   "keywords": [
@@ -12,14 +12,14 @@
     "zenith-visuals"
   ],
   "author": "Zenith Visuals",
-  "homepage": "https://github.com/zenith-visuals/zenith-visuals/tree/main/packages/hooks#readme",
+  "homepage": "https://github.com/arunkumarbrahmaniyaa/zenith-visuals/tree/main/packages/hooks#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zenith-visuals/zenith-visuals.git",
+    "url": "git+https://github.com/arunkumarbrahmaniyaa/zenith-visuals.git",
     "directory": "packages/hooks"
   },
   "bugs": {
-    "url": "https://github.com/zenith-visuals/zenith-visuals/issues"
+    "url": "https://github.com/arunkumarbrahmaniyaa/zenith-visuals/issues"
   },
   "publishConfig": {
     "access": "public"

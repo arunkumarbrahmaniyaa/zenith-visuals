@@ -2,7 +2,7 @@
 
 AI agent graph and prompt-flow visualizations for Zenith Visuals.
 
-Part of [**Zenith Visuals**](https://github.com/zenith-visuals/zenith-visuals) — the ultimate React visualization SDK. TypeScript-first, tree-shakeable, SSR-safe and accessible.
+Part of [**Zenith Visuals**](https://github.com/arunkumarbrahmaniyaa/zenith-visuals) — the ultimate React visualization SDK. TypeScript-first, tree-shakeable, SSR-safe and accessible.
 
 ## Install
 
@@ -28,7 +28,7 @@ import { AgentGraph } from "@zenith-visuals/ai";
     edges: [
       { source: "planner", target: "search" },
       { source: "search", target: "llm" },
-      { source: "llm", target: "out", streaming: true },
+      { source: "llm", target: "out", active: true },
     ],
   }}
   onNodeClick={(node) => console.log(node.id)}
@@ -36,7 +36,7 @@ import { AgentGraph } from "@zenith-visuals/ai";
 ```
 
 Node `status` (`idle`/`running`/`success`/`error`/`streaming`) drives accent
-colors; `tokens`/`latencyMs` render as badges; `streaming` edges animate. The
+colors; `tokens`/`latencyMs` render as badges; `active` edges animate. The
 layered-DAG layout `computeAgentLayout` is exported for headless use.
 
 > Wrap component trees in `<ThemeProvider>` from `@zenith-visuals/core` to enable
@@ -44,7 +44,7 @@ layered-DAG layout `computeAgentLayout` is exported for headless use.
 
 ## Documentation
 
-See the [main README](https://github.com/zenith-visuals/zenith-visuals#readme) for the full API, theming and more examples.
+See the [main README](https://github.com/arunkumarbrahmaniyaa/zenith-visuals#readme) for the full API, theming and more examples.
 
 ## License
 

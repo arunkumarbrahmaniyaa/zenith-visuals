@@ -1,0 +1,59 @@
+{
+  "name": "@zenith-visuals/finance",
+  "version": "0.1.0",
+  "description": "Financial & time-series charts (candlestick, OHLC bars, Kagi, Renko, horizon) for Zenith Visuals.",
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "charts",
+    "finance",
+    "candlestick",
+    "ohlc",
+    "kagi",
+    "renko",
+    "horizon",
+    "stock-chart",
+    "zenith-visuals"
+  ],
+  "author": "Zenith Visuals",
+  "homepage": "https://github.com/arunkumarbrahmaniyaa/zenith-visuals/tree/main/packages/finance#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arunkumarbrahmaniyaa/zenith-visuals.git",
+    "directory": "packages/finance"
+  },
+  "bugs": {
+    "url": "https://github.com/arunkumarbrahmaniyaa/zenith-visuals/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "type": "module",
+  "sideEffects": false,
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "typecheck": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "react": ">=18"
+  },
+  "dependencies": {
+    "@zenith-visuals/core": "workspace:*",
+    "@zenith-visuals/utils": "workspace:*",
+    "@zenith-visuals/charts": "workspace:*"
+  }
+}

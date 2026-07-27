@@ -2,7 +2,7 @@
 
 Framework-agnostic utilities for Zenith Visuals: scales, color, math, date and array helpers.
 
-Part of [**Zenith Visuals**](https://github.com/zenith-visuals/zenith-visuals) — the ultimate React visualization SDK. TypeScript-first, tree-shakeable, SSR-safe and accessible.
+Part of [**Zenith Visuals**](https://github.com/arunkumarbrahmaniyaa/zenith-visuals) — the ultimate React visualization SDK. TypeScript-first, tree-shakeable, SSR-safe and accessible.
 
 ## Install
 
@@ -40,7 +40,7 @@ all dependency-free and tree-shakeable.
 
 ## Documentation
 
-See the [main README](https://github.com/zenith-visuals/zenith-visuals#readme) for the full API, theming and more examples.
+See the [main README](https://github.com/arunkumarbrahmaniyaa/zenith-visuals#readme) for the full API, theming and more examples.
 
 ## License
 

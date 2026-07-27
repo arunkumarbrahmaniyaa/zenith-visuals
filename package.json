@@ -15,6 +15,7 @@
     "typecheck": "pnpm -r --filter \"./packages/*\" run typecheck",
     "test": "vitest run",
     "test:watch": "vitest",
+    "demo": "pnpm build && pnpm --filter @zenith-visuals/demo dev",
     "changeset": "changeset",
     "version-packages": "changeset version",
     "release": "pnpm build && changeset publish",

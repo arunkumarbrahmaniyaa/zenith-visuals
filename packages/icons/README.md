@@ -2,7 +2,7 @@
 
 Lightweight, tree-shakeable SVG icon components for Zenith Visuals.
 
-Part of [**Zenith Visuals**](https://github.com/zenith-visuals/zenith-visuals) — the ultimate React visualization SDK. TypeScript-first, tree-shakeable, SSR-safe and accessible.
+Part of [**Zenith Visuals**](https://github.com/arunkumarbrahmaniyaa/zenith-visuals) — the ultimate React visualization SDK. TypeScript-first, tree-shakeable, SSR-safe and accessible.
 
 ## Install
 
@@ -35,7 +35,7 @@ Includes ~20 ready-made icons (chevrons, `Plus`, `Minus`, `Close`, `Check`,
 
 ## Documentation
 
-See the [main README](https://github.com/zenith-visuals/zenith-visuals#readme) for the full API, theming and more examples.
+See the [main README](https://github.com/arunkumarbrahmaniyaa/zenith-visuals#readme) for the full API, theming and more examples.
 
 ## License
 

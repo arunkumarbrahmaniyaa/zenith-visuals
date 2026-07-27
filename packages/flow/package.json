@@ -1,6 +1,6 @@
 {
   "name": "@zenith-visuals/flow",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Sankey and flow diagram components for Zenith Visuals.",
   "license": "MIT",
   "keywords": [
@@ -11,14 +11,14 @@
     "zenith-visuals"
   ],
   "author": "Zenith Visuals",
-  "homepage": "https://github.com/zenith-visuals/zenith-visuals/tree/main/packages/flow#readme",
+  "homepage": "https://github.com/arunkumarbrahmaniyaa/zenith-visuals/tree/main/packages/flow#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zenith-visuals/zenith-visuals.git",
+    "url": "git+https://github.com/arunkumarbrahmaniyaa/zenith-visuals.git",
     "directory": "packages/flow"
   },
   "bugs": {
-    "url": "https://github.com/zenith-visuals/zenith-visuals/issues"
+    "url": "https://github.com/arunkumarbrahmaniyaa/zenith-visuals/issues"
   },
   "publishConfig": {
     "access": "public"
